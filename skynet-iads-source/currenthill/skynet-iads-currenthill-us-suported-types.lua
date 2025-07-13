@@ -93,7 +93,7 @@ samTypesDB['MIM-104_US'] = {
 	['can_engage_harm'] = true
 }	
 
-samTypesDB['NASAMS'] = {
+samTypesDB['NASAMS_CH'] = {
 	['type'] = 'complex',
 	['searchRadar'] = {
 		['CH_NASAMS3_SR'] = {
@@ -101,7 +101,7 @@ samTypesDB['NASAMS'] = {
 	},
 	['misc'] = {
 		['CH_NASAMS3_CP'] = {
-			['required'] = true,
+			['required'] = false,
 		},
 	},
 	['launchers'] = {

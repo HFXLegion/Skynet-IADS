@@ -1,4 +1,4 @@
-env.info("--- SKYNET VERSION: 3.3.1 | BUILD TIME: 12.07.2025 1910Z ---")
+env.info("--- SKYNET VERSION: 3.3.1 | BUILD TIME: 13.07.2025 0039Z ---")
 do
 --this file contains the required units per sam type
 samTypesDB = {	
@@ -1306,7 +1306,7 @@ samTypesDB['MIM-104_US'] = {
 	['can_engage_harm'] = true
 }	
 
-samTypesDB['NASAMS'] = {
+samTypesDB['NASAMS_CH'] = {
 	['type'] = 'complex',
 	['searchRadar'] = {
 		['CH_NASAMS3_SR'] = {
@@ -1314,7 +1314,7 @@ samTypesDB['NASAMS'] = {
 	},
 	['misc'] = {
 		['CH_NASAMS3_CP'] = {
-			['required'] = true,
+			['required'] = false,
 		},
 	},
 	['launchers'] = {
